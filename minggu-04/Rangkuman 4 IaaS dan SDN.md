@@ -1,0 +1,22 @@
+Infrastructure as a Service dan SDN
+
+Infrastructure as a service (IaaS)
+Adalah layanan online yang menyediakan API tingkat tinggi yang digunakan untuk membedakan variasi infrastruktur jaringan tingkat rendah seperti physical computing resources, location, data partitioning, scaling, security, backup, dll.
+IaaS umumnya diguakan pada teknologi orkestrasi cloud seperti Open Stack, Apache Cloudstack atau OpenNebula. Mengelola pembuatan mesin virtual dan memutuskan hypervisor mana (host fisik) untuk memulai, mengaktifkan fitur migrasi VM antar host, mengalokasikan volume penyimpanan.
+IaaS menyediakan layanan virtual-machine disk-image library, raw block storage, penyimpanan file atau objek, firewalls, load balancers, IP addresses, virtual local area networks (VLANs), dan paket software.
+Penyedia cloud IaaS mempunya peralatan yang terinstal di data centernya untuk memasok kebutuhannya. Untuk konektivitas area luas, pelanggan dapat menggunakan Internet atau cloud operator (jaringan pribadi virtual khusus). Untuk mengembangkan aplikasnya, pengguna awan menginstal sistem operasi dan software pada infrastruktur awan. Dalam model ini, pengguna cloud  melakukan maintanance sistem operasi dan perangkat lunak aplikasi. Penyedia cloud biasanya menagih layanan IaaS berdasarkan komputasi utilitas: biaya mencerminkan jumlah sumber daya yang dialokasikan dan digunakan.
+
+Software-defined networking (SDN)
+
+Merupakan pendekatan manajemen jaringan yang memungkinkan konfigurasi jaringan yang dinamis dan efisien secara programatik untuk meningkatkan kinerja dan pemantauan jaringan, menjadikannya lebih seperti komputasi awan daripada manajemen jaringan tradisional.
+SDN memusatkan kecerdasan jaringan dalam satu komponen jaringan dengan memisahkan proses penerusan paket jaringan (data pane) dari proses routing (control plane).
+Dengan SDN, dapat configure/monitor/troubleshoot jaringan dengan mudah dari titik pusat, menghindari cara manual, sehingga prosesnya menghemat waktu dan uang.
+SD-WAN menerapkan teknologi serupa ke Wide Area Network (WAN).
+Arsitektur SDN adalah :
+•	Dapat diprogram secara langsung: Kontrol jaringan dapat diprogram secara langsung karena dipisahkan dari fungsi penerusan.
+•	Agile: Mengabstraksi kontrol dari penerusan memungkinkan administrator secara dinamis menyesuaikan network-wide di seluruh jaringan untuk memenuhi kebutuhan yang berubah.
+•	Dikelola secara terpusat
+•	Dikonfigurasi secara terprogram: SDN memungkinkan pengelola jaringan mengonfigurasi, mengelola, mengamankan, dan mengoptimalkan sumber daya jaringan dengan sangat cepat melalui program SDN otomatis yang dinamis, yang dapat mereka tulis sendiri karena program tersebut tidak bergantung pada perangkat lunak berpemilik.
+•	Open standards-based and vendor-neutral:: Ketika diimplementasikan melalui standar terbuka.
+OpenFlow 
+Adalah, salah satu jenis dari APIs (Application Protocol Interfaces) dalam jaringan SDN yang digunakan untuk mengontrol/mengatur traffic flows pada switch dalam sebuah jaringan, jadi singkatnya control plane berkomunikasi dengan data plane melalui OpenFlow. OpenFlow dapat bekerja pada switch dari berbagai vendor. OpenFlow merupakan komponen dalam arsitektur SDN
